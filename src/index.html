@@ -1,3 +1,5 @@
+<!-- npx tailwindcss -i ./src/input.css -o ./src/output.css --watch -->
+
 <!doctype html>
 <html>
 <head>
@@ -5,9 +7,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./output.css" rel="stylesheet">
 </head>
-<body>
-    <h1 class="text-3xl font-bold underline">
-        Hello world!
-    </h1>
+<body class="flex flex-col font-['Garamond' bg-black text-white">
+    <section class="bg-indigo-900 flex flex-row w-full shadow-xl shadow-white/25 h-10">
+        <button class="group flex items-center transition-all ease-in-out delay-25 duration-300 hover:bg-indigo-700 px-4 w-full h-full hover:h-[150%] text-center border-b-2 border-white">
+            <div class="w-full text-lg">
+                Home
+            </div>
+        </button>
+        <button class="group flex items-center transition-all ease-in-out delay-25 duration-300 hover:bg-indigo-700 px-4 w-full h-full hover:h-[150%] text-center border-b-2 border-white">
+            <div class="w-full text-lg">
+                Projects
+            </div>
+        </button>
+        <button class="group flex items-center transition-all ease-in-out delay-25 duration-300 hover:bg-indigo-700 px-4 w-full h-full hover:h-[150%] text-center border-b-2 border-white">
+            <div class="w-full text-lg">
+                Contact
+            </div>
+        </button>
+        <button class="group flex items-center transition-all ease-in-out delay-25 duration-300 hover:bg-indigo-700 px-4 w-full h-full hover:h-[150%] text-center border-b-2 border-white">
+            <div class="w-full text-lg">
+                About
+            </div>
+        </button>
+    </section>
+    <section class="">
+        <div class="p-10">
+            This is where the Three.js stuff goes...
+        </div>
+    </section>
 </body>
 </html>
