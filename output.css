@@ -562,40 +562,28 @@ video {
   position: absolute;
 }
 
-.relative {
-  position: relative;
-}
-
 .left-0 {
   left: 0px;
-}
-
-.right-0 {
-  right: 0px;
-}
-
-.top-0 {
-  top: 0px;
 }
 
 .left-\[50px\] {
   left: 50px;
 }
 
-.top-\[50px\] {
-  top: 50px;
+.right-0 {
+  right: 0px;
 }
 
 .right-\[50px\] {
   right: 50px;
 }
 
-.top-\[300px\] {
-  top: 300px;
+.top-0 {
+  top: 0px;
 }
 
-.top-\[6000px\] {
-  top: 6000px;
+.top-\[50px\] {
+  top: 50px;
 }
 
 .top-\[600px\] {
@@ -604,14 +592,6 @@ video {
 
 .z-10 {
   z-index: 10;
-}
-
-.m-10 {
-  margin: 2.5rem;
-}
-
-.mt-10 {
-  margin-top: 2.5rem;
 }
 
 .flex {
@@ -626,20 +606,12 @@ video {
   height: 100%;
 }
 
-.h-\[1000px\] {
-  height: 1000px;
-}
-
-.w-10 {
-  width: 2.5rem;
+.w-2\/5 {
+  width: 40%;
 }
 
 .w-full {
   width: 100%;
-}
-
-.w-2\/5 {
-  width: 40%;
 }
 
 .flex-row {
@@ -658,18 +630,6 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
-}
-
-.overflow-scroll {
-  overflow: scroll;
-}
-
-.overflow-y-auto {
-  overflow-y: auto;
-}
-
-.border {
-  border-width: 1px;
 }
 
 .border-b-2 {
@@ -709,20 +669,8 @@ video {
   padding-right: 1rem;
 }
 
-.pt-16 {
-  padding-top: 4rem;
-}
-
-.pt-10 {
-  padding-top: 2.5rem;
-}
-
 .text-center {
   text-align: center;
-}
-
-.font-\[\'Garamond\'\] {
-  font-family: 'Garamond';
 }
 
 .text-lg {
