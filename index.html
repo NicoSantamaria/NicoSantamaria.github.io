@@ -5,78 +5,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script type="module" crossorigin src="/assets/index-COO42Y02.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-CGzitGb1.css">
+    <style>
+      #scrollable-content > section {
+        display: none;
+      }
+    </style>
+  <script type="module" crossorigin src="/assets/index-C-SXJgMJ.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-9v5b1P2P.css">
 </head>
 <body class="min-h-screen bg-black text-white">
   <main class="absolute inset-0 overflow-hidden">
     <canvas class="fixed inset-0 -z-10" id="main"></canvas>
 
     <nav class="fixed top-0 left-0 right-0 flex flex-row h-10 z-20 bg-indigo-900 shadow-xl shadow-white/25">
-        <a class="group flex items-center transition-all ease-in-out delay-25 duration-300 hover:bg-indigo-700 px-4 w-full h-full hover:h-[150%] text-center border-b-2 border-white" href="./index.html">
+        <a class="group flex items-center transition-all ease-in-out delay-25 duration-300 hover:bg-indigo-700 px-4 w-full h-full hover:h-[150%] text-center border-b-2 border-white hover:cursor-pointer" data-target="home">
             <div class="w-full text-lg">
                 Home
             </div>
         </a>
-        <a class="group flex items-center transition-all ease-in-out delay-25 duration-300 hover:bg-indigo-700 px-4 w-full h-full hover:h-[150%] text-center border-b-2 border-white" href="./projects.html">
+        <a class="group flex items-center transition-all ease-in-out delay-25 duration-300 hover:bg-indigo-700 px-4 w-full h-full hover:h-[150%] text-center border-b-2 border-white hover:cursor-pointer" data-target="projects">
           <div class="w-full text-lg">
             Projects
           </div>
         </a>
-        <a class="group flex items-center transition-all ease-in-out delay-25 duration-300 hover:bg-indigo-700 px-4 w-full h-full hover:h-[150%] text-center border-b-2 border-white" href="./contact.html">
+        <a class="group flex items-center transition-all ease-in-out delay-25 duration-300 hover:bg-indigo-700 px-4 w-full h-full hover:h-[150%] text-center border-b-2 border-white hover:cursor-pointer" data-target="contact">
             <div class="w-full text-lg">
                 Contact
             </div>
         </a>
-        <a class="group flex items-center transition-all ease-in-out delay-25 duration-300 hover:bg-indigo-700 px-4 w-full h-full hover:h-[150%] text-center border-b-2 border-white" href="./about.html">
+        <a class="group flex items-center transition-all ease-in-out delay-25 duration-300 hover:bg-indigo-700 px-4 w-full h-full hover:h-[150%] text-center border-b-2 border-white hover:cursor-pointer" data-target="about">
             <div class="w-full text-lg">
                 About
             </div>
         </a>
   </nav>
   
-  <div id="scrollable-content" class="absolute flex flex-col inset-0 pt-10 overflow-auto z-10">
-    <div class="self-center w-2/3 mt-[33vh] border-t-2 border-b-2 border-white bg-indigo-900 p-5">
-      <h1 class="text-center text-2xl m-2">
-        Nico Santamaria
-      </h1>
-      <p class="text-md italic m-2">
-        This is my portfolio site. It's still a work in progress. Check in later to see how it's developing!
-      </p>
-    </div>
+  <div id="scrollable-content" class="absolute inset-0 pt-10 overflow-auto z-10">
+    <section id="home" class="flex flex-col">
+      <div class="self-center w-2/3 mt-[33vh] border-t-2 border-b-2 border-white bg-indigo-900 p-5">
+        <h1 class="text-center text-2xl m-2">
+          Nico Santamaria
+        </h1>
+        <p class="text-md italic m-2">
+          This is my portfolio site. It's still a work in progress. Check in later to see how it's developing!
+        </p>
+      </div>
 
-    <div class="w-full mt-[150px] border-b-2 border-t-2 border-white bg-indigo-900 p-5">
-      <h1 class="text-center text-2xl m-2">
-        There will be stuff here, I promise!
-      </h1>
-      <p class="text-md italic m-2">
-        Lorem ipsum dolor sit amet lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet lorem ipsum dolor sit amet.
-        Lorem ipsum dolor sit amet lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet lorem ipsum dolor sit amet.
-        Lorem ipsum dolor sit amet lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet lorem ipsum dolor sit amet.
-      </p>
-      <p class="text-md italic m-2">
-        Lorem ipsum dolor sit amet lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet lorem ipsum dolor sit amet.
-        Lorem ipsum dolor sit amet lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet lorem ipsum dolor sit amet.
-      </p>
-      <p class="text-md italic m-2">
-        Lorem ipsum dolor sit amet lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet lorem ipsum dolor sit amet.
-        Lorem ipsum dolor sit amet lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet lorem ipsum dolor sit amet.
-        Lorem ipsum dolor sit amet lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet lorem ipsum dolor sit amet.
-        Lorem ipsum dolor sit amet lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet lorem ipsum dolor sit amet.
-      </p>
-    </div>
+      <div class="w-full mt-[150px] border-b-2 border-t-2 border-white bg-indigo-900 p-5">
+        <h1 class="text-center text-2xl m-2">
+          There will be stuff here, I promise!
+        </h1>
+        <p class="text-md italic m-2">
+          Lorem ipsum dolor sit amet lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet lorem ipsum dolor sit amet.
+          Lorem ipsum dolor sit amet lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet lorem ipsum dolor sit amet.
+          Lorem ipsum dolor sit amet lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet lorem ipsum dolor sit amet.
+        </p>
+        <p class="text-md italic m-2">
+          Lorem ipsum dolor sit amet lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet lorem ipsum dolor sit amet.
+          Lorem ipsum dolor sit amet lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet lorem ipsum dolor sit amet.
+        </p>
+        <p class="text-md italic m-2">
+          Lorem ipsum dolor sit amet lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet lorem ipsum dolor sit amet.
+          Lorem ipsum dolor sit amet lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet lorem ipsum dolor sit amet.
+          Lorem ipsum dolor sit amet lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet lorem ipsum dolor sit amet.
+          Lorem ipsum dolor sit amet lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet lorem ipsum dolor sit amet.
+        </p>
+      </div>
 
-    <div class="self-center w-full mt-[33vh] border-t-2 border-white bg-[#050b40] p-5">
-      <p class="text-md italic m-2">
-        There will be lots of useful information here. It's going to be fantastic.
-      </p>
-      <p class="text-md italic m-2">
-        There will be lots of useful information here. It's going to be fantastic.
-      </p>
-      <p class="text-md italic m-2">
-        There will be lots of useful information here. It's going to be fantastic.
-      </p>
-    </div>
+      <div class="self-center w-full mt-[33vh] border-t-2 border-white bg-[#050b40] p-5">
+        <p class="text-md italic m-2">
+          There will be lots of useful information here. It's going to be fantastic.
+        </p>
+        <p class="text-md italic m-2">
+          There will be lots of useful information here. It's going to be fantastic.
+        </p>
+        <p class="text-md italic m-2">
+          There will be lots of useful information here. It's going to be fantastic.
+        </p>
+      </div>
+    </section>
+
+    <section id="projects" class="flex flex-col">
+      <div class="self-center w-2/3 mt-[33vh] border-t-2 border-b-2 border-white bg-indigo-900 p-5">
+        <h1 class="text-center text-2xl m-2">
+          Projects
+        </h1>
+        <p class="text-md italic m-2">
+          This is my portfolio site. It's still a work in progress. Check in later to see how it's developing!
+        </p>
+      </div>
+    </section>
+
+    <section id="contact" class="flex flex-col">
+      <div class="self-center w-2/3 mt-[33vh] border-t-2 border-b-2 border-white bg-indigo-900 p-5">
+        <h1 class="text-center text-2xl m-2">
+          Contact Me
+        </h1>
+        <p class="text-md italic m-2">
+          This is my portfolio site. It's still a work in progress. Check in later to see how it's developing!
+        </p>
+      </div>
+    </section>
+
+    <section id="about" class="flex flex-col">
+      <div class="self-center w-2/3 mt-[33vh] border-t-2 border-b-2 border-white bg-indigo-900 p-5">
+        <h1 class="text-center text-2xl m-2">
+          About Me
+        </h1>
+        <p class="text-md italic m-2">
+          This is my portfolio site. It's still a work in progress. Check in later to see how it's developing!
+        </p>
+      </div>
+    </section>
   </div>
 
   </main>
