@@ -10,8 +10,8 @@
         display: none;
       }
     </style>
-  <script type="module" crossorigin src="/assets/index-BmOKTd10.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-DxX-DQtS.css">
+  <script type="module" crossorigin src="/assets/index-DbGP4Lbi.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-Day2fKzE.css">
 </head>
 <body class="min-h-screen bg-black text-white">
   <main class="absolute inset-0 overflow-hidden">
@@ -169,6 +169,32 @@
         </p>
         <p class="text-sm m-2">
           The R code used to create the rankings can be found <b><a href="https://github.com/NicoSantamaria/College-Rankings-2024">here.</a></b>
+        </p>
+      </div>
+      <div class="self-center w-2/3 mt-[24px] border-t-2 border-b-2 border-white bg-indigo-900 p-5 flex flex-col">
+        <h1 class="text-center text-xl m-2">
+          <i>Syndrome Decoder</i>
+        </h1>
+        <p class="text-sm m-2">
+          How can you decipher a message once errors have been introduced into it? In particular, if a message is transmitted
+          through an imperfect channel — that is, a channel with a non-zero probability of introducing errors into the message —
+          how can the original message be safely recovered?
+        </p>
+        <p class="text-sm m-2">
+          Most well-known, effectives codes are linear codes. Linear codes are vector spaces over a finite field, where messages
+          can be expressed as individual vectors. When an erroneous message is received, the goal is to decode the message to 
+          the "nearest" codeword within the vector space, with respect to a metric. Syndrome decoding is a technique that allows 
+          for messages to be decoded with minimal storage space required after initial computations, harnessing the fact that 
+          many vectors within a vector space belong to the the same cosets within that vector space, and those cosets can be 
+          represented by computationally inexpensive syndromes.
+        </p>
+        <p class="text-sm m-2">
+          In Syndrome Decoder, the Python module MatrixMod.py handles the background mathematics (linear algebra operations over
+          a finite field), while LinearCode.py performs the syndrome decoding algorithm. Syndrome Decoder is a Python program which
+          uses syndrome decoding to correct for errors in linear codes.
+        </p>
+        <p class="text-sm m-2">
+          The Python library can be found <b><a href="https://github.com/NicoSantamaria/SyndromeDecoder">here.</a></b>
         </p>
       </div>
     </section>
